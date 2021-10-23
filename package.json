@@ -1,0 +1,70 @@
+{
+  "name": "clientapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "axios": "^0.19.2",
+    "babel-eslint": "10.0.1",
+    "chokidar-cli": "^2.1.0",
+    "jquery": "^3.4.1",
+    "merge": "^1.2.1",
+    "oidc-client": "^1.9.0",
+    "popper.js": "^1.16.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-qr-barcode-scanner": "^1.0.6",
+    "react-redux": "^7.2.1",
+    "react-router-bootstrap": "^0.24.4",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "^3.0.1",
+    "reactstrap": "^6.5.0",
+    "redux": "^4.0.5",
+    "rimraf": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "@types/styled-components": "^5.0.1",
+    "ajv": "^6.9.1",
+    "autoprefixer": "^9.8.6",
+    "awesome-typescript-loader": "^5.2.1",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.12.0",
+    "eslint-config-react-app": "^4.0.1",
+    "eslint-plugin-flowtype": "^2.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.11.1",
+    "postcss-cli": "^7.1.1",
+    "source-map-loader": "^0.2.4",
+    "tailwindcss": "^1.7.5",
+    "typescript": "^3.8.2"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "scripts": {
+    "style": "tailwindcss build src/tailwind.css -o src/tailwind.output.css",
+    "prestart_": "npm run style",
+    "prebuild": "npm run style",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
