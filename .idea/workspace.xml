@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cc6bbcc3-c2b1-4a66-9ca9-dce725279363" name="Default Changelist" comment="" />
+    <list default="true" id="cc6bbcc3-c2b1-4a66-9ca9-dce725279363" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/App/Shared/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Shared/Layout.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/build" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YBYuOoMNXtgrX4Pn2lv6oURtuw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -95,7 +97,7 @@
       <workItem from="1600049316512" duration="758000" />
       <workItem from="1634631991860" duration="42000" />
       <workItem from="1634723840166" duration="3814000" />
-      <workItem from="1634968774253" duration="3972000" />
+      <workItem from="1634968774253" duration="4605000" />
     </task>
     <servers />
   </component>

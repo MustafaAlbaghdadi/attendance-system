@@ -16,7 +16,7 @@ export class Layout extends Component {
                     </div>
                 </div>
 
-                {/*<SideBar/>*/}
+                <SideBar/>
             </div>
 
 
